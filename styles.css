@@ -64,7 +64,7 @@ table {
     --soft-white: #FAF9F6;
   }
 
-  /*GLOBAL STYLES */
+ /* GLOBAL STYLES (mobile first/small) */
   body{
     font-family: "Playfair Display", serif;
     background-color: var(--linen);
@@ -113,3 +113,36 @@ table {
     font-weight: bold;
     font-size: 1.1rem
   }
+
+  section h2{
+    color: var(--midnight-blue);
+    font-size: 2.2rem;
+  }
+
+  .about,
+  .offerings,
+  .gallery{
+    border-bottom: 2px solid var(--champagne-gold);
+  }
+
+  .about p,
+  .gallery p{
+    font-size: 1.5rem;
+  }
+
+  .offerings > div{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+  }
+
+  footer{
+    background-color: var(--midnight-blue);
+    color: var(--soft-white);
+    text-align: center;
+  }
+
+  /* MEDIA QUERY (medium) */
+
+  /* MEDIA QUERY (large) */
+
+  /* MEDIA QUERY (xl) */
