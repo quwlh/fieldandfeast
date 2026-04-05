@@ -3,7 +3,7 @@
 /* IMPORTED FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
-/*CSS RESET */
+/* CSS RESET */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -90,26 +90,60 @@ table {
   }
 
   header h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
     margin-top: 1rem;
   }
 
   header p{
     font-size: 1.1rem;
     font-style: italic;
+    margin: 0.5rem 1rem 1rem 1rem;
   }
 
   nav{
     background-color: var(--champagne-gold);
+    padding: 0.75rem 0;
   }
 
   nav ul{
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    color: var(--midnight-blue);
     text-align: center;
+  }
+  nav a{ 
+    color: var(--midnight-blue);
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1rem
   }
+
+main{
+  padding: 1.5rem 1.5rem;
+}
+
+.about, .offerings, .gallery{
+  border-bottom: 2px solid var(--champagne-gold);
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about h2, .offerings h2, .gallery h2{
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.offerings div{
+  background-color: var(--olive-green);
+  color: var(--soft-white);
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.offerings h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+
+
