@@ -64,7 +64,7 @@ table {
     --soft-white: #FAF9F6;
   }
 
-  /*GLOBAL STYLES */
+ /* GLOBAL STYLES (mobile first/small) */
   body{
     font-family: "Playfair Display", serif;
     background-color: var(--linen);
