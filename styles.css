@@ -146,4 +146,58 @@ main{
   margin-bottom: 0.25rem;
 }
 
+.gallery-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.gallery-grid div {
+  background-color: var(--soft-white);
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  width: 95%;
+  margin: 0 auto;
+}
+
+.gallery-grid p {
+  text-align: center;
+  font-style: italic;
+  padding: 0.75rem;
+}
+
+.gallery a{
+  display: block;
+  background-color: var(--olive-green);
+  color: var(--soft-white);
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  padding: 0.85rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.gallery img{
+  width: 100%;
+  display: block;
+}
+
+footer{
+  background-color: var(--midnight-blue);
+  color: var(--soft-white);
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0.4rem;
+}
+
+footer a {
+  color: var(--champagne-gold);
+  text-decoration: none;
+  font-weight: bold;
+}
+
 
