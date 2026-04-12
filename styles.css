@@ -97,7 +97,7 @@ table {
   header p{
     font-size: 1.1rem;
     font-style: italic;
-    margin: 0.5rem 1rem 1rem 1rem;
+    margin: 0.5rem 1rem 1.25rem 1rem;
   }
 
   nav{
@@ -131,6 +131,7 @@ main{
 .about h2, .offerings h2, .gallery h2{
   font-size: 2rem;
   margin-bottom: 0.75rem;
+  color: var(--midnight-blue)
 }
 
 .offerings div{
@@ -139,6 +140,16 @@ main{
   padding: 1rem;
   border-radius: 6px;
   margin-bottom: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.offerings ul {
+  list-style: disc;
+  margin-left: 1.25rem;
+}
+
+.offerings li{
+  margin-bottom: 0.25rem;
 }
 
 .offerings h3 {
@@ -167,6 +178,10 @@ main{
   padding: 0.75rem;
 }
 
+.gallery > p {
+  margin-bottom: 1rem;
+}
+
 .gallery a{
   display: block;
   background-color: var(--olive-green);
@@ -188,6 +203,12 @@ footer{
   background-color: var(--midnight-blue);
   color: var(--soft-white);
   text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer address{
+  font-style: normal;
+  margin-bottom: 1.5rem;
 }
 
 footer p {
@@ -200,4 +221,7 @@ footer a {
   font-weight: bold;
 }
 
+.social a{
+  margin: 0 0.5rem;
+}
 
